@@ -1,0 +1,15 @@
+.header {
+  &-logo {
+    display: flex;
+    align-items: center;
+    h1 {
+      font-size: 30px;
+      color: #000;
+      border-right: solid red 2px;
+    }
+    .icon {
+      margin-left: 24px;
+      width: 24px;
+    }
+  }
+}
