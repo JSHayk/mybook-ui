@@ -22,14 +22,19 @@ li {
     list-style-type: none;
 }
 
-input, img {
+input,
+img {
     width: 100%;
 }
 
 button {
     outline: none;
+    cursor: pointer;
 }
 
 .wrapper {
     max-width: 1200px;
+    padding: 12px;
+    margin: auto;
+    border: solid;
 }

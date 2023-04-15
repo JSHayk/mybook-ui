@@ -1,15 +1,29 @@
 .header {
+  background-color: rgba(255, 255, 255, 1);
+  min-height: 600px;
+
   &-logo {
     display: flex;
     align-items: center;
+
     h1 {
       font-size: 30px;
       color: #000;
-      border-right: solid red 2px;
+      border-right: solid rgba(222, 222, 222, 1) 2px;
+      padding-right: 12px;
     }
+
     .icon {
-      margin-left: 24px;
+      margin-left: 12px;
       width: 24px;
     }
+  }
+
+  .login {
+    width: 190px;
+    height: 60px;
+    background: #F5F6F8;
+    border-radius: 30px;
+    border: none;
   }
 }
